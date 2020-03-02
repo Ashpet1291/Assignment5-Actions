@@ -11,5 +11,5 @@ def circleArea(input):
 
 def firstNLastList(list):
     listItems = list
-    res = [ listItems[0], listItems[-1]]
+    res = [listItems[0], listItems[-1]]
     return str(res)
