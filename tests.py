@@ -19,6 +19,9 @@ class TestArea(TestCase):
 
         rad = 7
         self.assertEqual(153.86, task.circleArea(rad))
+        
+        rad = 2
+        self.assertEqual(12.56, task.circle(rad))
 
 
 if __name__ == '__main__':
