@@ -1,2 +1,2 @@
-def firstrun () :
+def firstrun():
     return "success"
