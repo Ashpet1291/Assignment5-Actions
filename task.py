@@ -7,3 +7,9 @@ def circleArea(input):
     radius = input
     area = PI * radius * radius
     return area
+
+
+def firstNLastList(list):
+    listItems = list
+    res = [ listItems[0], listItems[-1]]
+    return str(res)
