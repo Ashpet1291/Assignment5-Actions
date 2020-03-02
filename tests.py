@@ -7,6 +7,7 @@ class TestCase(unittest.TestCase):
         expected = "success"
         self.assertEqual(expected, task.firstrun())
 
+
     def test2(self):
         expected = "failure"
         self.assertNotEqual(expected, task.firstrun())
@@ -19,6 +20,7 @@ class TestArea(TestCase):
 
         rad = 7
         self.assertEqual(153.86, task.circleArea(rad))
+
 
 if __name__ == '__main__':
     unittest.main()
