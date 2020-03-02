@@ -23,8 +23,9 @@ class TestArea(TestCase):
 
 class TestList(TestCase):
     def test_first_n_last_list(self):
-        testLists = [1, 2 , 3, 4, 5, 6]
+        testLists = [1, 2, 3, 4, 5, 6]
         self.assertEqual('[1, 6]', task.firstNLastList(testLists))
-        
+
+
 if __name__ == '__main__':
     unittest.main()
