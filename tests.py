@@ -3,11 +3,11 @@ import task
 
 
 class TestCase(unittest.TestCase):
-    def test1 (self):
+    def test1(self):
         expected = "success"
         self.assertEqual(expected, task.firstrun())
 
-    def test2 (self):
+    def test2(self):
         expected = "failure"
         self.assertNotEqual(expected, task.firstrun())
 
