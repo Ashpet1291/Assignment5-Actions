@@ -4,7 +4,7 @@ import task
 
 class TestCase(unittest.TestCase):
     def test1(self):
-        expected = "success"
+        expected="success"
         self.assertEqual(expected, task.firstrun())
 
     def test2(self):
