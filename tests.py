@@ -26,8 +26,8 @@ class TestList(TestCase):
     def test_first_n_last_list(self):
         testLists = [1, 2, 3, 4, 5, 6]
         self.assertEqual('[1, 6]', task.firstNLastList(testLists))
-        
-        
+
+
 class TestDaysInBetween(TestCase):
     def test_days_in_between(self):
         dateA = date(2014, 7, 2)
